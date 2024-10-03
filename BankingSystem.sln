@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankingSystem.WebAPI", "BankingSystem\BankingSystem.WebAPI.csproj", "{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F8F7363C-58C6-4826-A1A8-75A84EBE0A84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{023911D4-497B-4AEB-8F20-8D8019AFF731}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4BD5C44C-1C2B-4EAF-BF36-2F2A12E9D39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.Application", "BankingSystem.Application\BankingSystem.Application.csproj", "{5996872E-CBBC-48E7-B8B3-CF43658D26D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.DTO", "BankingSystem.DTO\BankingSystem.DTO.csproj", "{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.Domain", "BankingSystem.Domain\BankingSystem.Domain.csproj", "{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystem.Infrastructure", "BankingSystem.Infrastructure\BankingSystem.Infrastructure.csproj", "{275D861C-B61C-4448-A0B2-FD4963011A67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5996872E-CBBC-48E7-B8B3-CF43658D26D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5996872E-CBBC-48E7-B8B3-CF43658D26D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5996872E-CBBC-48E7-B8B3-CF43658D26D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5996872E-CBBC-48E7-B8B3-CF43658D26D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275D861C-B61C-4448-A0B2-FD4963011A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275D861C-B61C-4448-A0B2-FD4963011A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275D861C-B61C-4448-A0B2-FD4963011A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275D861C-B61C-4448-A0B2-FD4963011A67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AF20EAF-D54C-45D7-AEF1-ECAD717B6041} = {F8F7363C-58C6-4826-A1A8-75A84EBE0A84}
+		{5996872E-CBBC-48E7-B8B3-CF43658D26D4} = {F8F7363C-58C6-4826-A1A8-75A84EBE0A84}
+		{44A5D676-6F9A-48E4-8D6B-7D32C9BFD882} = {F8F7363C-58C6-4826-A1A8-75A84EBE0A84}
+		{734B3961-4C26-40DF-9ED6-BA9EA8BCD33D} = {023911D4-497B-4AEB-8F20-8D8019AFF731}
+		{275D861C-B61C-4448-A0B2-FD4963011A67} = {4BD5C44C-1C2B-4EAF-BF36-2F2A12E9D39E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ADDD356-3A3B-4602-BB42-2912ABB66EAD}
+	EndGlobalSection
+EndGlobal
